@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Dashboard | Omer Eltayeb</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div id="page-loader">
+        <img src="./assets/icons/loadingicon.svg" alt="" srcset="">
+        <div>Loading</div>
+      </div>
+      <div id="city"></div>
+      <div id="separator"></div>
+      <div id="clock"></div>
+
+      <div id="card-weather">
+        <div id="card-left" class="card">
+          <div><span id="temp-current"></span>°C</div>
+          <div>
+            <img id="icon" ></img>
+          </div>
+          <div id="temp-msg"></div>
+        </div>
+
+        <div id="card-right" class="card">
+          <div>
+            Min: <span><span id="temp-min"></span>°C</span>
+          </div>
+          <div>
+            Max: <span><span id="temp-max"></span>°C</span>
+          </div>
+          <div>
+            Humidity: <span><span id="temp-humidity"></span>%</span>
+          </div>
+        </div>
+      </div>
+
+      <div id="joke">
+        <div id="joke-setup"></div>
+        <div id="joke-punchline"></div>
+      </div>
+    </div>
+    <footer>Created by <strong>Omer Eltayeb</strong></footer>
+    <script src="./credentials.js"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
