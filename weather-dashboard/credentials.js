@@ -1,4 +1,9 @@
 var credentials = {
-  ipinfoAPIKEY: "a3c9c6155cd1d5",
-  openWeatherMapAPIKEY: "1c36a2483a26c5768cf9f9a8f31ed400",
+  ipinfoAPIKEY: "YOUR API KEY HERE",
+  openWeatherMapAPIKEY: "YOUR API KEY HERE",
 };
+
+//Get IPINFOAPI KEY at https://ipinfo.io/
+//Get openWeatherMapAPIKEY at https://openweathermap.org/
+
+
